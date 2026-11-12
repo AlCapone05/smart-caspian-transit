@@ -50,3 +50,4 @@ mobile/ios/Flutter/ephemeral/
 *.log
 tmp/
 .temp/
+.tools/
