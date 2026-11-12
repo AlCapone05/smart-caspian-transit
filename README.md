@@ -22,6 +22,41 @@ API-ключ для локального запуска: **`demo-key`** (заг�
 
 ---
 
+## Клонирование
+
+```bash
+git clone https://github.com/AlCapone05/smart-caspian-transit.git
+cd smart-caspian-transit
+```
+
+Дальше запустите **backend**, затем **frontend** (или mobile / Telegram-бот) по разделам ниже.
+
+---
+
+## GitHub Codespaces (запуск в облаке)
+
+1. Откройте репозиторий: https://github.com/AlCapone05/smart-caspian-transit  
+2. Нажмите **Code → Codespaces → Create codespace on main**.  
+3. Дождитесь сборки контейнера (`post-create` поставит Python/Node зависимости).  
+4. Стек **backend + frontend** стартует автоматически после подключения.  
+5. Во вкладке **Ports** откройте порт **5173** (Open in Browser).
+
+Полезные команды внутри Codespace:
+
+```bash
+./scripts/codespaces-up.sh    # запустить API :8002 и UI :5173
+./scripts/codespaces-down.sh  # остановить
+```
+
+- UI: порт `5173`  
+- API / Swagger: порт `8002` → `/docs`  
+- API-ключ: `demo-key`
+
+Flutter и Telegram-бот в Codespaces не обязательны (бот — через `python -m tg_bot` при наличии `TELEGRAM_BOT_TOKEN`).
+
+
+---
+
 ## Требования
 
 - **Python** 3.11+ (рекомендуется 3.13)

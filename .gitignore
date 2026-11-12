@@ -42,7 +42,9 @@ mobile/ios/Flutter/ephemeral/
 # OS / IDE
 .DS_Store
 .idea/
-.vscode/
+.vscode/*
+!.vscode/tasks.json
+!.vscode/extensions.json
 *.iml
 .cursor/
 
