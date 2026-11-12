@@ -1,0 +1,33 @@
+from app.schemas.api import (
+    AlternativeOut,
+    AlternativesResponse,
+    DocumentHistoryOut,
+    DocumentOut,
+    DocumentsResponse,
+    HealthOut,
+    PredeclareRequest,
+    PredeclareResponse,
+    SelectAlternativeRequest,
+    ShipmentDetail,
+    ShipmentSummary,
+    ShipmentsList,
+    SimulateRequest,
+    SimulateResponse,
+)
+
+__all__ = [
+    "HealthOut",
+    "ShipmentSummary",
+    "ShipmentsList",
+    "ShipmentDetail",
+    "SimulateRequest",
+    "SimulateResponse",
+    "AlternativesResponse",
+    "AlternativeOut",
+    "SelectAlternativeRequest",
+    "DocumentsResponse",
+    "DocumentOut",
+    "PredeclareRequest",
+    "PredeclareResponse",
+    "DocumentHistoryOut",
+]

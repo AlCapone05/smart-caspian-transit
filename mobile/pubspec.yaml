@@ -1,0 +1,27 @@
+name: moggnit_app
+description: МОГГНИТ · Smart Caspian Transit — мобильная диспетчерская
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.14.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  http: ^1.2.2
+  material_ui: ^1.1.0
+  flutter_map: ^8.3.2
+  latlong2: ^0.10.1
+  google_fonts: ^9.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/moggnit_logo.jpg

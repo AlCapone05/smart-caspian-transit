@@ -1,0 +1,52 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+*.pyo
+
+# Env & secrets
+.env
+**/.env
+backend/.env
+
+# Databases / runtime
+.sct.db
+sct.db
+backend/sct.db
+backend/data/
+*.db-journal
+
+# Node
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Flutter
+mobile/.dart_tool/
+mobile/.flutter-plugins
+mobile/.flutter-plugins-dependencies
+mobile/.packages
+mobile/build/
+mobile/.pub-cache/
+mobile/ios/Pods/
+mobile/ios/.symlinks/
+mobile/macos/Pods/
+mobile/macos/Flutter/ephemeral/
+mobile/ios/Flutter/Flutter.podspec
+mobile/ios/Flutter/Generated.xcconfig
+mobile/ios/Flutter/flutter_export_environment.sh
+mobile/ios/Flutter/ephemeral/
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+*.iml
+.cursor/
+
+# Logs / temp
+*.log
+tmp/
+.temp/
